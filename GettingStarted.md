@@ -42,7 +42,7 @@ using BtApiClient.Model;
 ```
 <a name="getting-started"></a>
 ## Getting Started
-To Use each method you should get a token using [**PublicApiAuthenticate**](docs/PublicApiApi.md#publicapiauthenticate) method
+To Use each method you should get a token using [**PublicApiAuthenticate**](docs/PublicApiApi.md#publicapiauthenticate) method. Once you get a token you can use it to call other methods. The token can be used for 30 minutes and when you get INVALID_TOKEN for the result of a api call you can renew it using [**PublicApiAuthenticate**](docs/PublicApiApi.md#publicapiauthenticate) method.
 
 
 ```csharp
