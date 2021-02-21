@@ -42,7 +42,7 @@ using BtApiClient.Model;
 ```
 <a name="getting-started"></a>
 ## Getting Started
-To Use each method you should get a token using **PublicApiAuthenticate**(docs/PublicApiApi.md#publicapiauthenticate) method
+To Use each method you should get a token using [**PublicApiAuthenticate**](docs/PublicApiApi.md#publicapiauthenticate) method
 
 
 ```csharp
